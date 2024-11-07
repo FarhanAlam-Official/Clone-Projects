@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Amazon.com. Spend less. Smile more</title>
+    <link rel="icon" href="../Images/amazon-favicon.ico" sizes="48x48" type="image/png">
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="top-of-page"> 
+      <div class="navbar"> 
+        <div class="logo border-effect"></div>
+        <div class="address border-effect">
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="add-info">
+            <span id="add-title">Deliver To</span>
+            <span id="add-main">Nepal</span>
+          </div>
+        </div>
+        <div class="search-area">
+          <div id="selection-option">
+            <select name="address">
+              <option selected disabled>All</option>
+            </select>
+          </div>
+          <div id="search-input">
+            <input type="text" placeholder="  Search Amazon" />
+          </div>
+          <div id="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="nav-right">
+          <div class="nav-language border-effect">
+            <div class="flag"></div>
+            <select name="language" id="language">
+              <option selected value="English">EN</option>
+            </select>
+          </div>
+          <div id="nav-account" class="border-effect">
+            <span class="hello-msg">Hello, sign in</span>
+            <span class="account-msg">Account &amp; Lists</span>
+          </div>
+          <div id="nav-return" class="border-effect">
+            <span class="return-msg">Returns</span>
+            <span class="order-msg">& Orders</span>
+          </div>
+          <div id="nav-cart" class="border-effect">
+            <div class="cart-icon"></div>
+            <span>Cart</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Secondary navbar -->
+    <div class="secondary-nav">
+      <div id="menu-bar" class="border-effect">
+        <i class="fa-solid fa-bars"></i>
+        <h4> All </h4>
+      </div>
+      <div id="deal-menu" class="border-effect">
+        <span>Today's Deals</span>
+      </div>
+      <div id="customer-service" class="border-effect">
+        <span>Customer Service</span>
+      </div>
+      <div id="registry" class="border-effect">
+        <span>Registry</span>
+      </div>
+      <div id="gift-card" class="border-effect">
+        <span>Gift Cards</span>
+      </div>
+      <div id="sell" class="border-effect">
+        <span>Sell &nbsp;</span>
+      </div>
+    </div>
+
+    <!-- Hero section of page -->
+    <section>
+      <div class="hero-section">
+          <div class="slideshow-content"></div>
+          <button class="arrow prev" onclick="prevSlide()">&#10094;</button>
+          <button class="arrow next" onclick="nextSlide()">&#10095;</button>
+        </div>
+
+        <!-- Main Product display area -->
+        <div class="product-card">
+
+          <!--First card of products -->
+            <div class="card">  
+            <div class="card-title">  <!--Title of products -->
+              <h2>Gaming accessories</h2>
+            </div>
+
+            <!-- Div for products-Images -->
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image headsets"></div>
+                <span class="product-name first-col">Headsets</span>
+              </div>
+              <div class="product">
+                <div class="product-image keyboards"></div>
+                <span class="product-name second-col">Keyboards</span>
+              </div>
+              <div class="product">
+                <div class="product-image mouse"></div>
+                <span class="product-name first-col">Compute Mice</span>
+              </div>
+              <div class="product">
+                <div class="product-image chairs"></div>
+                <span class="product-name second-col">Chairs</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> See more</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>Shop for your home essentials</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image cleaning-tool"></div>
+                <span class="product-name first-col">Cleaning Tools</span>
+              </div>
+              <div class="product">
+                <div class="product-image home-storage"></div>
+                <span class="product-name second-col">Home Storage</span>
+              </div>
+              <div class="product">
+                <div class="product-image home-decor"></div>
+                <span class="product-name first-col">Home Decor</span>
+              </div>
+              <div class="product">
+                <div class="product-image bedding"></div>
+                <span class="product-name second-col">Bedding</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> Discover more in Home</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>Shop deals in Fashion</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image jeans"></div>
+                <span class="product-name first-col">Jeans under $50</span>
+              </div>
+              <div class="product">
+                <div class="product-image tops"></div>
+                <span class="product-name second-col">Top under $25</span>
+              </div>
+              <div class="product">
+                <div class="product-image dress"></div>
+                <span class="product-name first-col">Dresses under $30</span>
+              </div>
+              <div class="product">
+                <div class="product-image shoes"></div>
+                <span class="product-name second-col">Shoes under $50</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> See all deals</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>New home arrivals under $50</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image kitchen_dinning"></div>
+                <span class="product-name first-col">Kitchen &amp; Dinning</span>
+              </div>
+              <div class="product">
+                <div class="product-image home_improvement"></div>
+                <span class="product-name second-col">Home Improvement </span>
+              </div>
+              <div class="product">
+                <div class="product-image decor"></div>
+                <span class="product-name first-col">Decor</span>
+              </div>
+              <div class="product">
+                <div class="product-image bedding_bath"></div>
+                <span class="product-name second-col">Bedding &amp; Bath</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> Shop the latest from Home</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>Gaming accessories</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image headsets"></div>
+                <span class="product-name first-col">Headsets</span>
+              </div>
+              <div class="product">
+                <div class="product-image keyboards"></div>
+                <span class="product-name second-col">Keyboards</span>
+              </div>
+              <div class="product">
+                <div class="product-image mouse"></div>
+                <span class="product-name first-col">Compute Mice</span>
+              </div>
+              <div class="product">
+                <div class="product-image chairs"></div>
+                <span class="product-name second-col">Chairs</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> See more</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>Shop for your home essentials</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image cleaning-tool"></div>
+                <span class="product-name first-col">Cleaning Tools</span>
+              </div>
+              <div class="product">
+                <div class="product-image home-storage"></div>
+                <span class="product-name second-col">Home Storage</span>
+              </div>
+              <div class="product">
+                <div class="product-image home-decor"></div>
+                <span class="product-name first-col">Home Decor</span>
+              </div>
+              <div class="product">
+                <div class="product-image bedding"></div>
+                <span class="product-name second-col">Bedding</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> Discover more in Home</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>Shop deals in Fashion</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image jeans"></div>
+                <span class="product-name first-col">Jeans under $50</span>
+              </div>
+              <div class="product">
+                <div class="product-image tops"></div>
+                <span class="product-name second-col">Top under $25</span>
+              </div>
+              <div class="product">
+                <div class="product-image dress"></div>
+                <span class="product-name first-col">Dresses under $30</span>
+              </div>
+              <div class="product">
+                <div class="product-image shoes"></div>
+                <span class="product-name second-col">Shoes under $50</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> See all deals</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>New home arrivals under $50</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image kitchen_dinning"></div>
+                <span class="product-name first-col">Kitchen &amp; Dinning</span>
+              </div>
+              <div class="product">
+                <div class="product-image home_improvement"></div>
+                <span class="product-name second-col">Home Improvement </span>
+              </div>
+              <div class="product">
+                <div class="product-image decor"></div>
+                <span class="product-name first-col">Decor</span>
+              </div>
+              <div class="product">
+                <div class="product-image bedding_bath"></div>
+                <span class="product-name second-col">Bedding &amp; Bath</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> Shop the latest from Home</p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-card slider">
+          <span class="movie-card-title">Most wished for in Movies &amp; TV</span>
+          <div class="movie-image-div">
+              <div class="slider-images">
+                  <img src="../Images/movieimage1.jpg" alt="Image 1">
+                  <img src="../Images/movieimage2.jpg" alt="Image 2">
+                  <img src="../Images/movieimage3.jpg" alt="Image 3">
+                  <img src="../Images/movieimage4.jpg" alt="Image 4">
+                  <img src="../Images/movieimage5.jpg" alt="Image 5">
+                  <img src="../Images/movieimage6.jpg" alt="Image 6">
+                  <img src="../Images/movieimage7.jpg" alt="Image 7">
+                  <img src="../Images/movieimage8.jpg" alt="Image 8">
+                  <img src="../Images/movieimage9.jpg" alt="Image 9">
+                  <img src="../Images/movieimage10.jpg" alt="Image 10">
+                  <img src="../Images/movieimage11.jpg" alt="Image 11">
+                  <img src="../Images/movieimage12.jpg" alt="Image 12">
+                  <img src="../Images/movieimage13.jpg" alt="Image 13">
+                  <img src="../Images/movieimage14.jpg" alt="Image 14">
+              </div>
+              <button class="movie-prev" >&#10094;</button>
+              <button class="movie-next" >&#10095;</button>
+          </div>
+      </div>
+      <div class="movie-card slider">
+        <span class="movie-card-title">Best Sellers in Books</span>
+        <div class="movie-image-div">
+            <div class="slider-images books-images">
+                <img src="../Images/movieimage1.jpg" alt="Image 1">
+                <img src="../Images/movieimage2.jpg" alt="Image 2">
+                <img src="../Images/movieimage3.jpg" alt="Image 3">
+                <img src="../Images/movieimage4.jpg" alt="Image 4">
+                <img src="../Images/movieimage5.jpg" alt="Image 5">
+                <img src="../Images/movieimage6.jpg" alt="Image 6">
+                <img src="../Images/movieimage7.jpg" alt="Image 7">
+                <img src="../Images/movieimage8.jpg" alt="Image 8">
+                <img src="../Images/movieimage9.jpg" alt="Image 9">
+                <img src="../Images/movieimage10.jpg" alt="Image 10">
+                <img src="../Images/movieimage11.jpg" alt="Image 11">
+                <img src="../Images/movieimage12.jpg" alt="Image 12">
+                <img src="../Images/movieimage13.jpg" alt="Image 13">
+                <img src="../Images/movieimage14.jpg" alt="Image 14">
+            </div>
+            <button class="book-prev" >&#10094;</button>
+            <button class="book-next" >&#10095;</button>
+        </div>
+    </div>
+      <div class="product-card-lower">
+          <div class="card">
+            <div class="card-title">
+              <h2>Gaming accessories</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image headsets"></div>
+                <span class="product-name first-col">Headsets</span>
+              </div>
+              <div class="product">
+                <div class="product-image keyboards"></div>
+                <span class="product-name second-col">Keyboards</span>
+              </div>
+              <div class="product">
+                <div class="product-image mouse"></div>
+                <span class="product-name first-col">Compute Mice</span>
+              </div>
+              <div class="product">
+                <div class="product-image chairs"></div>
+                <span class="product-name second-col">Chairs</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> See more</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>Shop for your home essentials</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image cleaning-tool"></div>
+                <span class="product-name first-col">Cleaning Tools</span>
+              </div>
+              <div class="product">
+                <div class="product-image home-storage"></div>
+                <span class="product-name second-col">Home Storage</span>
+              </div>
+              <div class="product">
+                <div class="product-image home-decor"></div>
+                <span class="product-name first-col">Home Decor</span>
+              </div>
+              <div class="product">
+                <div class="product-image bedding"></div>
+                <span class="product-name second-col">Bedding</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> Discover more in Home</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>Shop deals in Fashion</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image jeans"></div>
+                <span class="product-name first-col">Jeans under $50</span>
+              </div>
+              <div class="product">
+                <div class="product-image tops"></div>
+                <span class="product-name second-col">Top under $25</span>
+              </div>
+              <div class="product">
+                <div class="product-image dress"></div>
+                <span class="product-name first-col">Dresses under $30</span>
+              </div>
+              <div class="product">
+                <div class="product-image shoes"></div>
+                <span class="product-name second-col">Shoes under $50</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> See all deals</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>New home arrivals under $50</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image kitchen_dinning"></div>
+                <span class="product-name first-col">Kitchen &amp; Dinning</span>
+              </div>
+              <div class="product">
+                <div class="product-image home_improvement"></div>
+                <span class="product-name second-col">Home Improvement </span>
+              </div>
+              <div class="product">
+                <div class="product-image decor"></div>
+                <span class="product-name first-col">Decor</span>
+              </div>
+              <div class="product">
+                <div class="product-image bedding_bath"></div>
+                <span class="product-name second-col">Bedding &amp; Bath</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> Shop the latest from Home</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>Gaming accessories</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image headsets"></div>
+                <span class="product-name first-col">Headsets</span>
+              </div>
+              <div class="product">
+                <div class="product-image keyboards"></div>
+                <span class="product-name second-col">Keyboards</span>
+              </div>
+              <div class="product">
+                <div class="product-image mouse"></div>
+                <span class="product-name first-col">Compute Mice</span>
+              </div>
+              <div class="product">
+                <div class="product-image chairs"></div>
+                <span class="product-name second-col">Chairs</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> See more</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>Shop for your home essentials</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image cleaning-tool"></div>
+                <span class="product-name first-col">Cleaning Tools</span>
+              </div>
+              <div class="product">
+                <div class="product-image home-storage"></div>
+                <span class="product-name second-col">Home Storage</span>
+              </div>
+              <div class="product">
+                <div class="product-image home-decor"></div>
+                <span class="product-name first-col">Home Decor</span>
+              </div>
+              <div class="product">
+                <div class="product-image bedding"></div>
+                <span class="product-name second-col">Bedding</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> Discover more in Home</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>Shop deals in Fashion</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image jeans"></div>
+                <span class="product-name first-col">Jeans under $50</span>
+              </div>
+              <div class="product">
+                <div class="product-image tops"></div>
+                <span class="product-name second-col">Top under $25</span>
+              </div>
+              <div class="product">
+                <div class="product-image dress"></div>
+                <span class="product-name first-col">Dresses under $30</span>
+              </div>
+              <div class="product">
+                <div class="product-image shoes"></div>
+                <span class="product-name second-col">Shoes under $50</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> See all deals</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h2>New home arrivals under $50</h2>
+            </div>
+            <div class="card-body">
+              <div class="product">
+                <div class="product-image kitchen_dinning"></div>
+                <span class="product-name first-col">Kitchen &amp; Dinning</span>
+              </div>
+              <div class="product">
+                <div class="product-image home_improvement"></div>
+                <span class="product-name second-col">Home Improvement </span>
+              </div>
+              <div class="product">
+                <div class="product-image decor"></div>
+                <span class="product-name first-col">Decor</span>
+              </div>
+              <div class="product">
+                <div class="product-image bedding_bath"></div>
+                <span class="product-name second-col">Bedding &amp; Bath</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p> Shop the latest from Home</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <footer>
+      <div class="footer-upper">
+        <div class="footer-upper-content">
+          <h2>See personalized recommendations</h2>
+          <button class="signin">Sign in</button>
+          <p id="newcustomer-msg">New Customer ? <span id="start-msg"> Start here</span></p>
+        </div>
+      </div>
+      <button class="backto-top" onclick="window.location.href='#top-of-page'">Back to Top</button>
+      <div class="footer-middle">
+        <!-- First Column -->
+        <div class="useful-link">
+            <ul>
+                <li class="useful-link-title"><strong>Get to Know Us</strong></li>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>About Amazon</li>
+                <li>Investor Relations</li>
+                <li>Amazon Devices</li>
+                <li>Amazon Science</li>
+            </ul>
+        </div>
+        
+        <!-- Second Column -->
+        <div class="useful-link" id="make-money-link">
+            <ul>
+                <li class="useful-link-title" ><strong>Make Money with Us</strong></li>
+                <li>Sell products on Amazon</li>
+                <li>Sell on Amazon Business</li>
+                <li>Sell apps on Amazon</li>
+                <li>Become an Affiliate</li>
+                <li>Advertise Your Products</li>
+                <li>Self-Publish with Us</li>
+                <li>Host an Amazon Hub</li>
+                <li>› See More Make Money with Us</li>
+            </ul>
+        </div>
+        
+        <!-- Third Column -->
+        <div class="useful-link" id="product-link">
+            <ul>
+                <li class="useful-link-title"><strong>Amazon Payment Products</strong></li>
+                <li>Amazon Business Card</li>
+                <li>Shop with Points</li>
+                <li>Reload Your Balance</li>
+                <li>Amazon Currency Converter</li>
+            </ul>
+        </div>
+        
+        <!-- Fourth Column -->
+        <div class="useful-link">
+            <ul>
+                <li class="useful-link-title"><strong>Let Us Help You</strong></li>
+                <li>Amazon and COVID-19</li>
+                <li>Your Account</li>
+                <li>Your Orders</li>
+                <li>Shipping Rates &amp; Policies</li>
+                <li>Returns &amp; Replacements</li>
+                <li>Manage Your Content and Devices</li>
+                <li>Help</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-info">
+      <div  class="logo footer-logo"></div>
+      <div class="info-box">
+        <i class="fa-solid fa-globe"></i>
+        <select name="lang" id="footer-language">
+          <option selected value="English">English</option>
+        </select>
+      </div>
+      <div class="info-box currency-box">
+        <span id="currency"> $ &nbsp; USD - U.S Dollar</span>
+      </div>
+      <div class="info-box country-box">
+        <div class="flag footer-flag"></div>
+        <span id="country-name"> United States</span>
+      </div>
+    </div>
+    <div class="footer-lower">
+      <table class="footer-table">
+        <tbody>
+          <tr>
+              <td><span class="before-br">Amazon Music</span> <br>Stream <br>millions <br>of songs</td>
+              <td><span class="before-br">Amazon Ads</span> <br>Reach customers <br>wherever they <br>spend their time</td>
+              <td><span class="before-br">6pm</span> <br>Score <br> deals on fashion <br> brands</td>
+              <td><span class="before-br">AbeBooks</span> <br>Books <br> art <br>&amp; collectibles</td>
+              <td><span class="before-br">ACX</span> <br>Audiobook Publishing <br>Made <br>Easy</td>
+              <td><span class="before-br">Sell on Amazon</span> <br>Start a Selling <br>Account</td>
+              <td><span class="before-br">Veeqo</span> <br>Shipping Software <br>Inventory Management</td>
+          </tr>
+          <tr>
+              <td><span class="before-br">Amazon Business</span> <br>Everything For <br>Your Business</td>
+              <td><span class="before-br">AmazonGlobal</span> <br>Ship Orders <br>Internationally </td>
+              <td><span class="before-br">Home Services</span> <br>Experienced Pros <br>Happiness Guarantee</td>
+              <td><span class="before-br">Amazon Web Services</span> <br>Scalable Cloud <br>Computing Services</td>
+              <td><span class="before-br">Audible</span> <br>Listen to Books &amp; Original <br>Audio Performances</td>
+              <td><span class="before-br">Box Office Mojo</span> <br>Find Movie <br>Box Office Data</td>
+              <td><span class="before-br">Goodreads</span> <br>Book reviews &amp; recommendations</td>
+          </tr>
+          <tr>
+              <td><span class="before-br">IMDb</span> <br>Movies <br> TV <br>& Celebrities</td>
+              <td><span class="before-br">IMDbPro</span> <br>Get Info <br>Entertainment Professionals Need</td>
+              <td><span class="before-br">Kindle Direct Publishing</span> <br>Indie Digital &amp; Print Publishing <br>Made Easy</td>
+              <td><span class="before-br">Prime Video Direct</span> <br>Video <br> Distribution <br>Made Easy</td>
+              <td><span class="before-br">Shopbop</span> <br>Designer <br>Fashion Brands <br> &nbsp;</td>
+              <td><span class="before-br">Woot!</span> <br>Deals and <br>Shenanigans <br> &nbsp; <br> &nbsp;</td>
+              <td><span class="before-br">Zappos</span> <br>Shoes &amp; <br>Clothing <br> &nbsp; <br> &nbsp;</td>
+          </tr>
+          <tr>
+              <td><span class="before-br">Ring</span> <br>Smart Home <br>Security Systems</td>
+              <td><span class="before-br">eero</span> WiFi <br>Stream 4K Video <br>in Every Room</td>
+              <td><span class="before-br">Blink</span> <br>Smart Security <br>for Every Home</td>
+              <td><span class="before-br">Neighbors</span> App <br>Real-Time Crime <br>& Safety Alerts</td>
+              <td><span class="before-br">Amazon Subscription Boxes</span> <br>Top subscription boxes – <br>right to your door</td>
+              <td><span class="before-br">PillPack</span> <br>Pharmacy <br> Simplified</td>
+              <td></td>
+          </tr>
+      </tbody>
+    </table>
+    <div class="footer-lower-content">
+      <ul>
+        <li>Conditions of Use</li>
+        <li>Privacy Notice</li>
+        <li>Consumer Health Data Privacy Disclosure</li>
+        <li>Your Ads Privacy Choices</li>
+        <li>
+          <span id="tick-cross"></span>
+        </li>
+      </ul>
+      <span>© 1996-2024, Amazon.com, Inc. or its affiliates</span>
+    </div>
+    </div>
+    </footer>
+  </body>
+  <script>
+    // Image URLs for the slideshow
+    const images = [
+  '../Images/image1.jpg',
+  '../Images/image2.jpg',
+  '../Images/image3.jpg',
+  '../Images/image4.jpg',
+  '../Images/image5.jpg',
+  '../Images/image6.jpg'
+];
+
+
+let currentIndex = 0;
+const slideshowContainer = document.querySelector('.hero-section');
+
+// Function to show the current slide based on the index
+function showSlide(index) {
+  // Keep index within the range of the images array
+  currentIndex = (index + images.length) % images.length;
+  // Update the background image of the slideshow container
+  slideshowContainer.style.backgroundImage = `url(${images[currentIndex]})`;
+}
+
+// Function to go to the next slide
+function nextSlide() {
+  showSlide(currentIndex + 1);
+}
+
+// Function to go to the previous slide
+function prevSlide() {
+  showSlide(currentIndex - 1);
+}
+
+// Auto-slide functionality
+function autoSlide() {
+  nextSlide();
+}
+
+// Initial call to display the first image
+showSlide(currentIndex);
+
+// Set the interval for automatic sliding (e.g., every 5 seconds)
+let slideInterval = setInterval(autoSlide, 5000);
+
+// Reset the interval when the user navigates manually
+slideshowContainer.addEventListener('click', () => {
+  clearInterval(slideInterval);
+  slideInterval = setInterval(autoSlide, 5000);
+});
+
+
+let currentIndexes = { movie: 0, book: 0 };
+
+function moveSlide(direction, sliderType) {
+    const sliderClass = sliderType === 'movie' ? '.slider-images' : '.books-images';
+    const slides = document.querySelectorAll(`${sliderClass} img`);
+    const totalSlides = slides.length;
+
+    // Update the current index for the specified slider
+    currentIndexes[sliderType] += direction;
+
+    // Loop back to the first slide if at the end, or to the last slide if at the beginning
+    if (currentIndexes[sliderType] < 0) {
+        currentIndexes[sliderType] = totalSlides - 1;
+    } else if (currentIndexes[sliderType] >= totalSlides) {
+        currentIndexes[sliderType] = 0;
+    }
+
+    // Calculate the offset and apply the transform
+    const offset = -currentIndexes[sliderType] * 100;
+    document.querySelector(sliderClass).style.transform = `translateX(${offset}%)`;
+
+    // Update button states based on current index
+    updateButtonStates(sliderType, currentIndexes[sliderType], totalSlides);
+}
+
+function updateButtonStates(sliderType, currentIndex, totalSlides) {
+    // Define button selectors based on sliderType
+    const prevButton = document.querySelector(`.${sliderType}-prev`);
+    const nextButton = document.querySelector(`.${sliderType}-next`);
+
+    // Disable "prev" button if at the first slide, enable otherwise
+    if (currentIndex === 0) {
+        prevButton.disabled = true;
+    } else {
+        prevButton.disabled = false;
+    }
+
+    // Disable "next" button if at the last slide, enable otherwise
+    if (currentIndex === totalSlides - 1) {
+        nextButton.disabled = true;
+    } else {
+        nextButton.disabled = false;
+    }
+}
+
+//Example Button Event Listeners
+document.querySelector('.movie-next').addEventListener('click', () => moveSlide(1, 'movie'));
+document.querySelector('.movie-prev').addEventListener('click', () => moveSlide(-1, 'movie'));
+document.querySelector('.book-next').addEventListener('click', () => moveSlide(1, 'book'));
+document.querySelector('.book-prev').addEventListener('click', () => moveSlide(-1, 'book'));
+
+//Initial call to set button states on page load
+updateButtonStates('movie', currentIndexes.movie, document.querySelectorAll('.slider-images img').length);
+updateButtonStates('book', currentIndexes.book, document.querySelectorAll('.books-images img').length);
+
+
+  </script>
+</html>
