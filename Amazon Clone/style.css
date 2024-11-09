@@ -14,7 +14,7 @@ body{
   background: linear-gradient(92.41deg, #003d32, #04734b);
 }
 .logo {
-  background-image: url(../Images/amazon_logo.png);
+  background-image: url(../Amazon-Clone-Images/amazon_logo.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100px;
@@ -150,7 +150,7 @@ body{
 
 }
 .flag{
-  background-image: url(../Images/US_Flag.png);
+  background-image: url(../Amazon-Clone-Images/US_Flag.png);
   background-size: cover;
   width: 25px;
   height: 20px;
@@ -213,7 +213,7 @@ body{
 .cart-icon{
   width: 45px;
   height: 45px;
-  background-image: url(../Images/cart.png);
+  background-image: url(../Amazon-Clone-Images/cart.png);
   background-size: cover;
 }
 #nav-cart span{
@@ -336,16 +336,16 @@ font-size: 0.88rem;
   font-weight: 500;
 }
 .headsets{
-  background-image: url(../Images/headsets.jpg);
+  background-image: url(../Amazon-Clone-Images/headsets.jpg);
 }
 .keyboards{
-  background-image: url(../Images/keyboards.jpg);
+  background-image: url(../Amazon-Clone-Images/keyboards.jpg);
 }
 .mouse {
-  background-image: url(../Images/mouse.jpg);
+  background-image: url(../Amazon-Clone-Images/mouse.jpg);
 }
 .chairs{
-  background-image: url(../Images/chairs.jpg);
+  background-image: url(../Amazon-Clone-Images/chairs.jpg);
 }
 .card-footer{
   display: flex;
@@ -361,47 +361,47 @@ font-size: 0.88rem;
   cursor: pointer;
 }
 .cleaning-tool{
-  background-image: url(../Images/cleaning_tools.jpg);
+  background-image: url(../Amazon-Clone-Images/cleaning_tools.jpg);
 }
 .home-storage{
-  background-image: url(../Images/home_storage.jpg);
+  background-image: url(../Amazon-Clone-Images/home_storage.jpg);
 }
 .home-decor{
-  background-image: url(../Images/home_decor.jpg);
+  background-image: url(../Amazon-Clone-Images/home_decor.jpg);
 }
 .bedding{
-  background-image: url(../Images/bedding.jpg);
+  background-image: url(../Amazon-Clone-Images/bedding.jpg);
 }
 .jeans {
-  background-image: url(../Images/jeans.jpg);
+  background-image: url(../Amazon-Clone-Images/jeans.jpg);
 }
 
 .tops {
-  background-image: url(../Images/tops.jpg);
+  background-image: url(../Amazon-Clone-Images/tops.jpg);
 }
 
 .dress {
-  background-image: url(../Images/dress.jpg);
+  background-image: url(../Amazon-Clone-Images/dress.jpg);
 }
 
 .shoes {
-  background-image: url(../Images/shoes.jpg);
+  background-image: url(../Amazon-Clone-Images/shoes.jpg);
 }
 
 .kitchen_dinning {
-  background-image: url(../Images/kitchen_dinning.jpg);
+  background-image: url(../Amazon-Clone-Images/kitchen_dinning.jpg);
 }
 
 .home_improvement {
-  background-image: url(../Images/home_improvement.jpg);
+  background-image: url(../Amazon-Clone-Images/home_improvement.jpg);
 }
 
 .decor {
-  background-image: url(../Images/decor.jpg);
+  background-image: url(../Amazon-Clone-Images/decor.jpg);
 }
 
 .bedding_bath {
-  background-image: url(../Images/bedding_bath.jpg);
+  background-image: url(../Amazon-Clone-Images/bedding_bath.jpg);
 }
 .movie-card,.books-card {
   height: 285px;
@@ -645,6 +645,6 @@ margin-right: 20px;
   display: inline-block;
   width: 25px;
   height: 20px;
-  background-image: url(../Images/tick_cross.png);
+  background-image: url(../Amazon-Clone-Images/tick_cross.png);
   background-size: cover;
 }
