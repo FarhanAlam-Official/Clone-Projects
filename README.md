@@ -97,5 +97,5 @@
 <p>For questions, suggestions, or collaboration inquiries, please reach out:</p>
 <ul>
     <li><strong>GitHub:</strong> <a href="https://github.com/FarhanAlam-Official" target="blank">Farhan Alam</a></li>
-    <li><strong>Email  :</strong> <a href="mailto:thefarhanalam01@gmail.com" target="blank"> Farhan Alam</a></li>
+    <li><strong>Email  :</strong> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thefarhanalam01@gmail.com"" target="blank"> Farhan Alam</a></li>
 </ul>
