@@ -1,4 +1,4 @@
-<h1>Clone Projects Repository</h1>
+<h1>Clone Projects </h1>
 
 <p>Welcome to the <strong>Clone Projects</strong> repository, a collection of frontend clones crafted with HTML, CSS, and JavaScript. This repository demonstrates essential web development skills through recreations of well-known websites and applications. Each project here focuses on replicating both design aesthetics and core functionalities, providing a valuable resource for anyone looking to explore web development principles.</p>
 
@@ -96,6 +96,6 @@
 <h2 id="contact">Contact</h2>
 <p>For questions, suggestions, or collaboration inquiries, please reach out:</p>
 <ul>
-    <li><strong>GitHub:</strong> <a href="https://github.com/FarhanAlam-Official">Farhan Alam-Github</a></li>
-    <li><strong>Email:</strong> <a href="mailto:thefarhanalam01@gmail.com"> Farhan Alam-Mail</a></li>
+    <li><strong>GitHub:</strong> <a href="https://github.com/FarhanAlam-Official" target="blank">Farhan Alam</a></li>
+    <li><strong>Email  :</strong> <a href="mailto:thefarhanalam01@gmail.com" target="blank"> Farhan Alam</a></li>
 </ul>
