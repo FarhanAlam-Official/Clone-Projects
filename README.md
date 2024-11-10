@@ -96,6 +96,6 @@
 <h2 id="contact">Contact</h2>
 <p>For questions, suggestions, or collaboration inquiries, please reach out:</p>
 <ul>
-    <li><strong>GitHub:</strong> <a href="https://github.com/FarhanAlam-Official">Farhan Alam</a></li>
-    <li><strong>Email:</strong> <a href="mailto:thefarhanalam01@gmail.com">your-email@example.com</a> <em>(Replace with your contact email)</em></li>
+    <li><strong>GitHub:</strong> <a href="https://github.com/FarhanAlam-Official">Farhan Alam-Github</a></li>
+    <li><strong>Email:</strong> <a href="mailto:thefarhanalam01@gmail.com"> Farhan Alam-Mail</a></li>
 </ul>
